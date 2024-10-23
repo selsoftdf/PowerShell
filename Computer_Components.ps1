@@ -1,3 +1,8 @@
+# Subject              : System information with PowerShell 
+# Created By           : Selcuk KILINC
+# PSVersion            : 7.4.5
+
+
 # Get CPU Name
 try{
  $cpuname = Get-WmiObject Win32_Processor | Select-Object -ExpandProperty Name
